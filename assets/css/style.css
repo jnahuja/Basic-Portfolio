@@ -102,6 +102,16 @@ a:hover {
   border: 1px solid #dddddd;
 }
 
+.MainSectionHidden {
+  width: 958px;
+  height: 630px;
+  background: #ffffff;
+  margin: 0 auto;
+  margin-top: 45px;
+  /* border-color: #dddddd; */
+  border: 1px solid #dddddd;
+}
+
 .MainSectionPortfolio {
   width: 958px;
   height: 620px;
@@ -137,6 +147,13 @@ body {
   float: left;
 } */
 
+#MainHeaderLink {
+  color: #4aaaa5;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
 #MainHeader {
   color: #4aaaa5;
   padding-bottom: 30px;
@@ -145,6 +162,11 @@ body {
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: bold;
   font-size: 24px;
+}
+
+#MainHeaderLink:hover {
+  color: white;
+  background: blue;
 }
 
 #BioContent, #PortfolioContent, #ContactForm {
